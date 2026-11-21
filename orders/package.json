@@ -1,0 +1,20 @@
+{
+  "name": "orders",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --require ./tracing.js index.js"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "dependencies": {
+    "@opentelemetry/api": "^1.10.0",
+    "@opentelemetry/auto-instrumentations-node": "^0.83.1",
+    "@opentelemetry/exporter-trace-otlp-http": "^0.301.2",
+    "@opentelemetry/sdk-node": "^0.301.2",
+    "axios": "^1.21.1",
+    "express": "^5.3.0",
+    "pino": "^10.4.0"
+  }
+}
